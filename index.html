@@ -98,10 +98,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <nav class="navbar navbar-expand-lg navbar-light bgNav fixed-top">
 	<div class="container">
-		<a class="navbar-brand" href="index.html"><img src="images/asiapay_logo.svg"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	
+    <a class="navbar-brand float-left" href="index.html"><img src="images/asiapay_logo.svg"></a>
+		
+		        
+		
+		
+		
+		<div class=" d-inline-block hideindesktop"style="vertical-align:middle;">
+		
+		<!-- LANGUAGE BUTTON IN MOBILE-->
+		<ul style="width:100px; height:30px;" class="hideindesktop d-inline-block" >
+				  <li class="dropdown list-unstyled text-center">
+					<span class="btn btn-lang" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<img src="images/icon_en.svg" width="38" height="38" style=" margin-bottom:4px;"></span>
+					<div class="dropdown-menu dropdown-menu-lang" aria-labelledby="navbarDropdown" style=" top:55px; left:10px;">
+						<a class="dropdown-item selected">English</a>
+						<a class="dropdown-item" href="http://www.asiapay.com.vn/vn/index.html">Vietnam</a>
+					</div>
+				  </li>
+		</ul>
+		<!--END OF LANGUAGE BUTTON  IN MOBILE -->
+		
+		  <button class="navbar-toggler d-inline-block" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+         </button>
+		</div>
+		
+		
+		
 
         <div id="navbarNavDropdown" class="navbar-collapse collapse">
             <ul class="navbar-nav mr-auto">
@@ -140,9 +165,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				  <li class="nav-item d-block d-lg-none"><a class="nav-link" href="payment.html#service">Our Payment Solutions</a></li>
 				  <li class="nav-item d-block d-lg-none"><a class="nav-link" href="#contact">Contact Us</a></li>
 				  <li class="nav-item d-block d-lg-none"><a class="nav-link" href="country.html">Country</a></li>
+				  <!-- <li class="nav-item d-block"><a class="nav-link lang" href="" style="font-size:0.8em; padding-top:8px;">Tiếng Việt &#8652; EN</a></li> -->
+				  
+				  <!-- LANGUAGE BUTTON -->
+				  <li class="nav-item dropdown d-none d-lg-block">
+					<button class="btn btn-lang dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<img src="images/icon_en.svg" width="25" height="25" style="margin-top:-3px"></button>
+					<div class="dropdown-menu dropdown-menu-lang" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item selected">English</a>
+						<a class="dropdown-item" href="http://www.asiapay.com.vn/vn/index.html">Vietnam</a>
+					</div>
+				  </li>
+				  <!--END OF LANGUAGE BUTTON -->
+
+				
             </ul>
         </div>
-	</div>
+
+    
+    </div>
+    
+	<!--  <span class=" d-block float-ri ght" style=" position:inherit; right:inherit; margin-right:15px; font-size:0.8em;">Tiếng Việt</span>-->
+	
 </nav>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -429,7 +473,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="row">
 					<div class="col-lg-6 col-xs-12">
-						<input class="form-control" id="vCode" name="vCode" placeholder="Verfification Code" type="text" required>
+						<input class="form-control" id="vCode" name="vCode" placeholder="Verification Code" type="text" required>
 					</div>
 					<div class="col-lg-6">
 						<img id="vCodeImg" name="vCodeImg" src="https://www.paydollar.com/b2c2/imgservlet/loginVerification" alt="Verification Code">

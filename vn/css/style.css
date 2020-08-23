@@ -31,14 +31,14 @@ footer .rounded-circle:hover	{background-color:#091b55;}
 @media (max-width: 997px){
 	.container, form, .navbar, .navbar-brand	{padding-left:0.8rem; padding-right:0.8rem;}
 	.country	{padding-left:0; padding-right:0;}
-	
+
 	.about		{padding-top:0;}
-	
+
 	#about		{font-size:1rem; padding-top:100px;}
 	#contact	{padding-top:100px; padding-bottom:15px; }
 	.opt .container, .country .container{margin-top:47px;}
 	.country a	{color:#000; padding:0 1.5rem 0 0; line-height:1.5rem;}
-	
+
 	footer	{font-size:70%;}
 }
 
@@ -70,7 +70,7 @@ footer .rounded-circle:hover	{background-color:#091b55;}
 .navbar-nav li a.active,
 .navbar-nav li a:active
 { background-color:#faa61a; color:#fff !important ;
--webkit-border-radius: 20px; 
+-webkit-border-radius: 20px;
 -moz-border-radius: 20px;
 border-radius: 20px;
 }
@@ -101,7 +101,7 @@ border-radius: 0px;
 }
 
 .btn.btn-country.focus,
-.btn.btn-country:focus, 
+.btn.btn-country:focus,
 .btn.btn-country.active,
 .btn.btn-country:active ,
 .btn.btn-country:active
@@ -129,25 +129,25 @@ border-radius: 0px;
 .container .dropdown .dropdown-menu a:hover
 {
  color: #fff;
- background-color: #f8aa2d; 
+ background-color: #f8aa2d;
 -webkit-border-radius: 0px; border:0;
 -moz-border-radius: 0px;
 border-radius: 0px;
-  
+
 }
 .container .dropdown .dropdown-menu-lang a:hover
 {
  color: #fff;
- background-color: #1b3281; 
+ background-color: #1b3281;
 -webkit-border-radius: 0px; border:0;
 -moz-border-radius: 0px;
 border-radius: 0px;
-  
+
 }
 
 
 .btn.btn-contact.focus,
-.btn.btn-contact:focus, 
+.btn.btn-contact:focus,
 .btn.btn-contact.active,
 .btn.btn-contact:active ,
 .btn.btn-contact:active
@@ -170,12 +170,12 @@ border-radius: 20px;}
 	}
 
 	.btn.btn-contact.focus,
-	.btn.btn-contact:focus, 
+	.btn.btn-contact:focus,
 	.btn.btn-contact.active,
 	.btn.btn-contact:active ,
-	.btn.btn-contact:active 
-	
-	{background-color:#faa61a; color:#fff !important; 
+	.btn.btn-contact:active
+
+	{background-color:#faa61a; color:#fff !important;
 	-webkit-border-radius:0; -moz-border-radius:0; border-radius:0;
 	}
 	.navbar-nav li {background-color:#1b3281; margin-left:0;}
@@ -266,7 +266,7 @@ border-radius: 20px;}
 	.trust ul	{margin:0 auto 0 auto; width:95%; padding:0; list-style:none;}
 	.trust li	{width:45%; float:left; padding:0 8px; margin:0.2rem; border:1px solid #d2d2d2; display:inline;}
 	.trust ul li:last-child, .trust ul li:last-child a 	{display:table; float:none; padding:0; margin:0; text-align:right; width:100%; border:0; line-height:2rem;}
-	
+
 }
 .opt	{background-image:url(../images/bg-Credit-Card-V2.png); background-repeat:no-repeat; background-position:center center; background-size:100%; min-height:600px;}
 
@@ -303,13 +303,13 @@ form .row div	{padding:5px; }
 .nav-pills .nav-link:hover	{background-color:#eee; border-left:5px solid #eee; color:#000;}
 
 .nav-pills .nav-link.focus,
-.nav-pills .nav-link:focus, 
+.nav-pills .nav-link:focus,
 .nav-pills .nav-link.active,
 .nav-pills .nav-link:active ,
 .nav-pills .nav-link:active
 {
-background-color:#1b3281 !important; color:#fff; 
--webkit-border-radius:5px; 
+background-color:#1b3281 !important; color:#fff;
+-webkit-border-radius:5px;
 -moz-border-radius:5px;
 border-radius:5px; border-left:5px solid #f49f38;
 -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.6);
@@ -362,11 +362,11 @@ box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.6);
 .channel	{width:100%;}
 @media (max-width: 479px)
 {
-	.channel .row  div	{width:33%; display:table-cell;}	
+	.channel .row  div	{width:33%; display:table-cell;}
 }
 
 @media (max-width: 479px)
-{	
+{
 	body	{font-size: 1.0rem;}
 	h1	{font-size:2.3rem;}
 	h2	{font-size:1.4rem; margin:0; padding:0;}
@@ -432,14 +432,7 @@ box-shadow: 10px 10px 17px -12px rgba(0,0,0,0.73);
 @media (min-width: 991px)
 {	.hideindesktop{
 	visibility:hidden; display:none;
-	
-}
 
 }
 
-
-
-
-
-
-
+}
