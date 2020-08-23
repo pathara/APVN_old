@@ -112,8 +112,8 @@ border-radius: 0px;
 {background-color:#f0f0f0; color:#999;}
 
 
-.btn .btn-country {background-image:url(../images/icon_global.svg); background-repeat:no-repeat; background-position: center center;}
-.btn .btn-lang { background-color:#FFFFFF; border:3px black;/*background-image:url(../images/icon_en.svg); background-repeat:no-repeat; background-position: center center;*/ }
+.btn .btn-country {background-image:url(../../images/icon_global.svg); background-repeat:no-repeat; background-position: center center;}
+.btn .btn-lang { background-color:#FFFFFF; border:3px black;/*background-image:url(../../images/icon_en.svg); background-repeat:no-repeat; background-position: center center;*/ }
 
 .dropdown-menu .dropdown-item  {}
 .dropdown-menu .selected,
@@ -239,25 +239,25 @@ border-radius: 20px;}
 {
 	.service .row div	{border:0;}
 }
-#regional	{background-image:url(../images/credit.jpg);}
-#processing	{background-image:url(../images/process.jpg); background-position:center -20px;}
-#fraud	{background-image:url(../images/fraud.jpg); background-position:center -50px;}
-#bigData	{background-image:url(../images/data.jpg);  background-position:0 -20px;}
-#onus	{background-image:url(../images/onus.jpg);  background-position:0 -20px;}
+#regional	{background-image:url(../../images/credit.jpg);}
+#processing	{background-image:url(../../images/process.jpg); background-position:center -20px;}
+#fraud	{background-image:url(../../images/fraud.jpg); background-position:center -50px;}
+#bigData	{background-image:url(../../images/data.jpg);  background-position:0 -20px;}
+#onus	{background-image:url(../../images/onus.jpg);  background-position:0 -20px;}
 @media (max-width: 479px)
 {
 	#onus	{background-position:0 0;}
 }
-#module	{background-image:url(../images/module.jpg);  background-position:0 -20px;}
+#module	{background-image:url(../../images/module.jpg);  background-position:0 -20px;}
 
 
-#about 	{background-image:url(../images/cityview.jpg); background-repeat:no-repeat; background-position:center -120px; background-size:cover; color:#fff; height:auto; min-height:500px;}
+#about 	{background-image:url(../../images/cityview.jpg); background-repeat:no-repeat; background-position:center -120px; background-size:cover; color:#fff; height:auto; min-height:500px;}
 .about	{font-size:17px;}
 .about a	{color:#fff; text-decoration:underline;}
 
 @media (max-width: 479px)
 {
-	.about	{background-image:url(../images/cityview.jpg); background-repeat:no-repeat; background-position:center bottom ; background-size:cover; padding-bottom:50px; color:#fff; height:auto !important;}
+	.about	{background-image:url(../../images/cityview.jpg); background-repeat:no-repeat; background-position:center bottom ; background-size:cover; padding-bottom:50px; color:#fff; height:auto !important;}
 }
 
 @media (max-width: 768px)
@@ -268,7 +268,7 @@ border-radius: 20px;}
 	.trust ul li:last-child, .trust ul li:last-child a 	{display:table; float:none; padding:0; margin:0; text-align:right; width:100%; border:0; line-height:2rem;}
 
 }
-.opt	{background-image:url(../images/bg-Credit-Card-V2.png); background-repeat:no-repeat; background-position:center center; background-size:100%; min-height:600px;}
+.opt	{background-image:url(../../images/bg-Credit-Card-V2.png); background-repeat:no-repeat; background-position:center center; background-size:100%; min-height:600px;}
 
 @media (max-width: 997px)
 {
